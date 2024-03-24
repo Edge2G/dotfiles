@@ -1,0 +1,47 @@
+* {
+    border: none;
+    font-family: Font Awesome, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+/* General sections */
+.modules-left {
+	background-color: transparent;
+    border-radius: 10;
+}
+
+.modules-center {
+    border-radius: 10;
+    background-color: transparent;
+}
+
+.modules-right {
+	background-color: transparent;
+    border-radius: 10;
+}
+
+/* Per Module */
+#workspaces button 
+{
+    border-radius: 10;
+    background-color: rgb(2, 64, 96);
+    margin-right: 10px;
+}
+
+#workspaces button.active {
+    border-radius: 10;
+	background-color: rgb(14, 0, 92);
+    padding-left: 20;
+    padding-right: 20;
+}
+
+#clock, #pulseaudio, #network, #battery, #backlight {
+    margin-left: 4px;
+    border-radius: 10;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(2, 64, 96);
+}
